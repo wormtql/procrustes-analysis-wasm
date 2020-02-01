@@ -1,9 +1,18 @@
 # procrustes-analysis-wasm
 
-## Project setup
+## build web assembly
+make sure you have rust wasm toolchain installed
+```bash
+cd wasm/rust-wasm
+wasm-pack build
 ```
+and you'll notice a pkg directory generated
+
+## install dependencies
+```bash
 npm install
 ```
+the wasm dependency is also included
 
 ### Compiles and hot-reloads for development
 ```
