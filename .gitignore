@@ -19,3 +19,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# rust wasm target
+/wasm/rust-wasm/pkg
+/wasm/rust-wasm/target
